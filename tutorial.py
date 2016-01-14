@@ -16,7 +16,6 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 mySprite = Sprite(rectangle)
 myapp = App()
 myapp.run()
-mySprite.fxcenter = 0.5
-mySprite.fycenter = 0.5
+mySprite.position = (100,100)
 
     
