@@ -23,6 +23,8 @@ while i  < 100:
     i = i + 1
     mySprite.rotation = i
     sleep (1)
+    myapp.run()
+    
     
     
     
