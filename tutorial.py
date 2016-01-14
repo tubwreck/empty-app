@@ -14,6 +14,12 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 
 # Now display a rectangle
 mySprite = Sprite(rectangle)
-mySprite.rotation(1)
 myapp = App()
 myapp.run()
+mySprite.fxcenter = 0.5
+mySprite.fycenter = 0.5
+i = 0.0
+while i < 100 :
+    mySprite.rotation = i % 100 
+    i =i + 1
+    
