@@ -1,5 +1,6 @@
 from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+from time import sleep
 
 # Three primary colors with no transparency (alpha = 1.0)
 red = Color(0xff0000, 1.0)
@@ -21,5 +22,7 @@ i = 0
 while i  < 100:
     i = i + 1
     mySprite.rotation = i
+    sleep (1)
+    
     
     
