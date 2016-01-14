@@ -18,7 +18,7 @@ myapp = App()
 myapp.run()
 mySprite.position = (100,100)
 i = 0
-while i  < 100
+while i  < 100:
     i = i + 1
     mySprite.rotation = i
     
