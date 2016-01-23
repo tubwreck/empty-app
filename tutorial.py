@@ -16,15 +16,13 @@ rectangle = RectangleAsset(50, 20, thinline, blue)
 # Now display a rectangle
 mySprite = Sprite(rectangle)
 myapp = App()
-myapp.run()
 mySprite.position = (100,100)
-i = 0
-while i  < 100:
-    i = i + 1
-    mySprite.rotation = i
-    sleep (1)
-    myapp.run()
+
+def step()
+    mySprite.rotation = mySprite.rotation + 1
+
+myapp.run(step)
     
-    
+
     
     
