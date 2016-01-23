@@ -18,7 +18,7 @@ mySprite = Sprite(rectangle)
 myapp = App()
 mySprite.position = (100,100)
 
-def step()
+def step():
     mySprite.rotation = mySprite.rotation + 1
 
 myapp.run(step)
